@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bread",
+      "price": 1.5,
+      "description": "A delicious loaf of bread."
+    },
+    {
+      "id": 2,
+      "name": "Chicken Sandwich",
+      "price": 3.5,
+      "description": " A good Chicken"
+    },
+    {
+      "id": 3,
+      "name": "Fruit Salad",
+      "price": 2.75,
+      "description": "A fresh fruit salad with a variety of fruits."
+    },
+    {
+      "id": 4,
+      "name": "Ice Cream",
+      "price": 4.75,
+      "description": "A scoop of our famous vanilla ice cream."
+    },
+    {
+      "id": "db9b",
+      "name": "La dance",
+      "price": 3400,
+      "description": "la grande salle de complexte rabat"
+    },
+    {
+      "id": 5,
+      "name": "car",
+      "price": 3400,
+      "description": "good quality"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "Address": "23 rue LIMA, avenue CHILI , Paris, France",
+      "phoneNumber": "+33689543210"
+    },
+    {
+      "id": 2,
+      "name": "Samantha Mikel",
+      "Address": "456 Rue de la Paix, Avenue des Champs Elysées",
+      "phoneNumber": "+33689543211"
+    }
+  ],
+  "orders": [
+    {
+      "clientId": 1,
+      "productId": 1
+    },
+    {
+      "clientId": 1,
+      "productId": 3
+    },
+    {
+      "clientId": 2,
+      "productId": 4
+    },
+    {
+      "clientId": 2,
+      "productId": 1
+    }
+  ]
+}
