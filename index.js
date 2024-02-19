@@ -33,10 +33,10 @@ function settable(){
 .then( dataJson =>{
     console.log(dataJson);
     dataJson.forEach( item  =>{
-        const trtable = content.createElement("tr");
-        const tdname = content.createElement("td");
-        const tdprice = content.createElement("td");
-        const tddescription = content.createElement("td");
+        const trtable = document.createElement("tr");
+        const tdname = document.createElement("td");
+        const tdprice = document.createElement("td");
+        const tddescription = document.createElement("td");
 
         tdname.textContent=item.name;
         tdprice.textContent=item.price;
